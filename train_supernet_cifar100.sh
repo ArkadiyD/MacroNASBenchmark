@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=0 python3 src/main.py --dir=benchmark_cifar100 --data_path=../datasets --dataset=CIFAR100 --training=1 --epochs=370 --lr_init=0.1 --cycle_period=30 --lr_start_cycle=250 --batch_size=128 --num_workers=8

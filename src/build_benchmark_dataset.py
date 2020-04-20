@@ -19,6 +19,6 @@ for _, file in tqdm.tqdm(enumerate(files)):
         del data['test_loss']
         del data['val_loss']
         results[model] = data 
-print('Saving final dataset to', args.dir + '/dataset.json')
-json.dump(results, open(args.dir + '/dataset.json', 'w'))
+print('Saving final dataset to', args.dir + '_dataset.json')
+json.dump(results, open(args.dir + '_dataset.json', 'w'))
             
