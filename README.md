@@ -4,7 +4,7 @@ These NAS benchmarks for CIFAR10/100 are used in the paper:
 
 ## Features
 These NAS benchmarks aim at providing the community with a new tool for evaluating the performance of search algorithms for NAS. Some features which make it different from existing alternative approaches:
-* Search is performed at macro-level: cell types are the discrete variables, they are not repeated, the number of cells is flexible
+* Search is performed at macro-level: cell types are the discrete variables, they are not repeated, the number of non-trivial cells is flexible (see example below)
 * All solutions in the considered search space are feasible to make the usage easier with almost any search algorithm
 * We believe it's better suited for benchmarking multi-objective optimization algorithms (see the paper)
 * Quite a large search space: **>200K** unique architectures
