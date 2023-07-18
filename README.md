@@ -20,14 +20,14 @@ These NAS benchmarks aim at providing the community with a new tool for evaluati
 
 ## Benchmarks usage
 To test your search algorithm on benchmarks:
-* ```git clone```
+* install [git lfs](https://git-lfs.com/) and do ```git clone```
 * Data for CIFAR/CIFAR100 stored in `benchmark_cifar10_dataset.json`, `benchmark_cifar100_dataset.json` respectively
 * In json files there are all (possibly including identity cells) models of the search space (>4M) as keys, solutions encoding is described above
 
 ## Benchmarks creation & reproducibility
 To reproduce benchmarks or change some hyperparameters and obtain your own version of them (an example for CIFAR10):
 
-0. ```git clone```
+0. install [git lfs](https://git-lfs.com/) and do ```git clone```
 1. ```pip3 install --user -r requirements.txt```
 2. Trained supernet models are provided in `benchmark_cifar10/`. If you want to re-train, delete existing models and run: `./scripts/train_supernet_cifar10.sh`
    * By default, GPU #0 is used
