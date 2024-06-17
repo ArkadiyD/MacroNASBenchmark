@@ -5,4 +5,4 @@ numpy==1.14.5
 tqdm==4.33.0
 torch==1.4.0
 torchvision==0.4.2
-scikit_learn==0.22.2.post1
+scikit_learn==1.5.0
